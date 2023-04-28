@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <form action="#" id="form" method="post">
+        <div class="content">
+        <div class="login">
+            <h1>Create Account</h1>
+            <h4>Get started with your free account</h3>
+            <a href="#" class="tw-btn">
+                <i class="fa fa-twitter fa-fw"></i>Login via Twitter
+            </a> 
+            <a href="#" class="fb-btn">
+                <i class="fa fa-facebook fa-fw"></i>Login via Facebook
+            </a>
+        </div>
+        <div class="or">
+            _______________Or________________
+        </div>
+        <div class="username">
+            <i class="fa fa-user"></i>
+            <input type="text" name="username" id="username" placeholder="Full name">
+            <i class="fa fa-exclaimation-cirlce failure-icon"></i>
+            <i class="fa fa-check-circle success-icon"></i>
+            <div class="error"></div>
+
+        </div>
+        <div class="email">
+            <i class="fa fa-envelope"></i>
+            <input type="text" name="email" id="email" placeholder="Email Address">
+            <i class="fa fa-exclaimation-circle failure-icon"></i>
+            <i class="fa fa-check-circle success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <div class="phone-number">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input type="tel" name="telephone" id="telephone" placeholder="+84">
+        </div>
+        <div class="job">
+            <i class="fa fa-building" aria-hidden="true"></i>
+            <select class="form-control">
+                <option selected="">Select job type</option>
+                <option>Designer</option>
+                <option>Manager</option>
+                <option>Accounting</option>
+            </select>
+            <div class="error"></div>
+        </div>
+        <div>
+            <i class="fa fa-lock"></i>
+            <input type="password" name="password" id="password">
+            <i class="fa fa-exclaimation-circle failure-icon"></i>
+            <i class="fa fa-check-circle success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <div>
+            <i class="fa fa-lock"></i>
+            <input type="password" name="confirmpassword" id="confirm-password">
+            <i class="fa fa-exclaimation-circle failure-icon"></i>
+            <i class="fa fa-check-circle success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <button id="btn" type="submit">Submit</button>
+        <div class="question">
+            Have an account? <span>Log in</span>
+        </div>
+        </div>
+    </form>
+    </div>
+    
+</body>
+</html>
